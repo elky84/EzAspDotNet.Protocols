@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Web</RootNamespace>
+	
+	<PackageId>EzAspDotNet.Protocols</PackageId>
+	<Version>1.0.0</Version>
+	<Authors>elky</Authors>
+	<Company>elky</Company>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+
+	<PackageDescription>ASP.NET Protocol base</PackageDescription>
+    <RepositoryUrl>https://github.com/elky84/EzAspDotNet.Protocols</RepositoryUrl>
+	
+	<PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<None Include="..\LICENSE" Pack="true" PackagePath="\" />
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+</Project>
