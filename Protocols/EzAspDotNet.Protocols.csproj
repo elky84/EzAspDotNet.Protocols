@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <RootNamespace>Web</RootNamespace>
+	<RootNamespace>EzAspDotNet.Protocols</RootNamespace>
 	
 	<PackageId>EzAspDotNet.Protocols</PackageId>
 	<Version>1.0.0</Version>
