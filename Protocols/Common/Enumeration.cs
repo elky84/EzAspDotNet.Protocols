@@ -9,9 +9,9 @@ namespace EzAspDotNet.Protocols.Common
     // [열거형 형식 대신 열거형 클래스 사용 | Microsoft Docs] (https://docs.microsoft.com/ko-kr/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/enumeration-classes-over-enum-types)
     public abstract class Enumeration : IComparable
     {
-        public string Description { get; private set; }
+        public string Description { get; set; }
 
-        public int Id { get; private set; }
+        public int Id { get; set; }
 
         protected Enumeration(int id, string name) => (Id, Description) = (id, name);
 

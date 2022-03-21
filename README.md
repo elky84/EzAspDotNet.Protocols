@@ -28,6 +28,10 @@ And use with [EzAspDotNet](https://github.com/elky84/EzAspDotNet)
 
 ## version history
 
+### v1.0.2
+
+Change private set of Enumeration to set for json deserialize
+
 ### v1.0.1
 
 Remove Enumeration's Description varaible JsonIgnore.
