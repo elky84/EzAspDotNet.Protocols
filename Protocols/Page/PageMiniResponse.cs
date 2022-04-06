@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace EzAspDotNet.Protocols.Page
 {
@@ -10,6 +11,6 @@ namespace EzAspDotNet.Protocols.Page
 
         public PageableMini Pageable { get; set; }
 
-        public int TotalPage => (int)Total / Pageable.Limit;
+        public int TotalPage => (int)Math.Ceiling((double)Total / Pageable.Limit);
     }
 }
