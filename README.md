@@ -28,6 +28,10 @@ And use with [EzAspDotNet](https://github.com/elky84/EzAspDotNet)
 
 ## version history
 
+### v1.0.4
+
+Added Pageable utility methods.
+
 ### v1.0.3
 
 Added PageMiniResponse.

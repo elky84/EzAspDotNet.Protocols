@@ -9,5 +9,7 @@ namespace EzAspDotNet.Protocols.Page
         public List<T> Contents { get; set; }
 
         public PageableMini Pageable { get; set; }
+
+        public int TotalPage => (int)Total / Pageable.Limit;
     }
 }
