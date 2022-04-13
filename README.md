@@ -30,10 +30,11 @@ And use with [EzAspDotNet](https://github.com/elky84/EzAspDotNet)
 
 ### v1.0.5
 
-Fixed Pageable TotalPage count.
+Change the access specifiers of Enumeration and ProtocolId for JSON conversion, and add a constructor
 
 ### v1.0.4
 
+Fixed Pageable TotalPage count.
 Added Pageable utility methods.
 
 ### v1.0.3

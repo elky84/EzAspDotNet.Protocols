@@ -2,11 +2,16 @@
 
 namespace EzAspDotNet.Protocols.Id
 {
-    public abstract class ProtocolId
+    public class ProtocolId
     : Enumeration
     {
-        protected ProtocolId(int id, string name) : base(id, name)
+        public ProtocolId(int id, string name) : base(id, name)
         {
+        }
+
+        public ProtocolId()
+        {
+
         }
     }
 }
